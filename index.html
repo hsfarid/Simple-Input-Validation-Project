@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input validation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>
+      Welcome! <br />
+      Sign in to continue..
+    </h1>
+    <form class="form-container js-form-container">
+      <input
+        class="input-form js-username"
+        type="text"
+        placeholder="Enter username"
+        required
+      />
+      <input
+        class="input-form js-password"
+        type="text"
+        placeholder="Enter password"
+        required
+      />
+      <div class="output js-output"></div>
+      <input type="submit" class="submit-btn js-submit-btn" value="Sign in" />
+    </form>
+
+    <script src="app.js"></script>
+  </body>
+</html>
